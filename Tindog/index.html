@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica de Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&family=Permanent+Marker&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="colored-section1">
+        <div>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(223, 80, 104)">
+            <div class="container-fluid" class="left">
+              <a class="navbar-brand" href="#" id="tindog">tindog</a>
+              <button class="navbar-toggler responsive-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <ul class="nav justify-content-end responsive-ul">
+                <li class="nav-item">
+                  <a class="nav-link active right" aria-current="page" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link right opacity" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link right opacity margin" href="#">Download</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6 p-15px">
+                    <h1 style="padding-top: 10px;text-align: start;">Meet new and interesting dogs nearby.</h1>
+                    <button type="button" class="btn btn-dark btn btn-lg"><i class="bi bi-apple"></i>Download</button>
+                    <button type="button" class="btn btn-outline-light btn btn-lg"><i class="bi bi-google-play"></i>Download</button>
+                </div>
+                <div class="col-lg-6 h1" style="padding-top: 0px;">   
+                    <img src="img/iphone6.png" alt="Picture of dog in iphone6" class="iphone">
+                </div>
+            </div>
+        </div>             
+    </section>
+    <section class="iconos">
+      <div class="easy">
+        <i class="bi bi-check-circle-fill lh-1 check"></i>
+        <h2>Easy to use.</h2>
+        <p>So easy to use, even your dog could do  it.</p>
+      </div>
+      <div class="easy">
+        <i class="bi bi-bullseye lh-1 check"></i>
+        <h2>Elite Clientele</h2>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="easy">
+        <i class="bi bi-heart-fill lh-1 check"></i>
+        <h2>Guaranteed to work.</h2>
+        <p>Find the love of your dog's life or your money back</p>
+      </div>
+    </section>
+    <section class="carrousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="testimony"> I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h3>
+            <!--EC class="... mx-auto img-circle"(imagen centrada-ancho, forma circular)-->
+            <img src="img/dog-img.jpg" class="d-block mx-auto circle-pics" alt="testimony-dog">
+          </div>
+          <div class="carousel-item">
+            <h3 class="testimony"> My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h3>
+            <img src="img/lady-img.jpg" class="d-block mx-auto circle-pics" alt="testimony-lady">  
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="carrousel">
+      <div>
+      <img src="img/TechCrunch.png" alt="TechCrunch logo" class="logos">
+      <img src="img/tnw.png" alt="TheNextWeb logo" class="logos">
+      <img src="img/bizinsider.png" alt="Business Insider logo" class="logos">
+      <img src="img/mashable.png" alt="Mashable logo" class="logos">
+    </div>
+    </section>
+    <section class="precios">
+      <div class="dogs-plan">
+      <h2 class="dog-h2">A Plan for Every Dog's Needs</h2>
+      <p class="text-dog">Simple and affordable price plans for your and your dog.</p>
+    </div>
+      <div class="packs">
+      <div>
+        <table>
+          <tr class="title">
+            <td>Chihuahua</td>
+          </tr>
+          <tr>
+            <td class="free"><h2>Free</h2></td>
+          </tr>
+          <tr>
+            <td class="apple">5 matches per day</td>
+          </tr>
+          <tr>
+            <td class="apple">10 messages per day</td>
+          </tr>
+          <tr>
+            <td class="apple">Unlimited app usage</td>
+          </tr>
+          <tr class="sign-up">
+            <td class="sign-up"><button type="button" class="btn btn-outline-primary btn-lg sign-up apple">Sign up</button></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table>
+          <tr class="title">
+            <td>Labrador</td>
+          </tr>
+          <tr>
+            <td class="free"><h2>$49 / mo</h2></td>
+          </tr>
+          <tr>
+            <td class="apple">Unlimited matches</td>
+          </tr>
+          <tr>
+            <td class="apple">Unlimited messages</td>
+          </tr>
+          <tr>
+            <td class="apple">Unlimited app usage</td>
+          </tr>
+          <tr class="sign-up">
+            <td class="sign-up"><button type="button" class="btn btn-outline-dark btn-lg sign-up apple">Sign up</button></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <table>
+          <tr class="title">
+            <td>Mastiff</td>
+          </tr>
+          <tr>
+            <td class="free"><h2>$99 / mo</h2></td>
+          </tr>
+          <tr>
+            <td class="apple">Priority listing</td>
+          </tr>
+          <tr>
+            <td class="apple">Unlimited matches</td>
+          </tr>
+          <tr>
+            <td class="apple">Unlimited messages</td>
+          </tr>
+          <tr>
+            <td class="apple">Unlimited app usage</td>
+          </tr>
+          <tr class="sign-up">
+            <td class="sign-up"><button type="button" class="btn btn-outline-dark btn-lg sign-up apple">Sign up</button></td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <section class="love">
+      <div class="love-div">
+      <h2 class="love-h2">Find the True Love of Your Dog's Life Today.</h2>
+      <div class="next-to">
+      <button type="button" class="btn btn-dark btn btn-lg"><i class="bi bi-apple"></i>Download</button>
+      <button type="button" class="btn btn-outline-light btn btn-lg"><i class="bi bi-google-play"></i>Download</button>
+    </div>
+  </div>
+    </section>
+    <footer>
+      <i class="bi bi-facebook social"></i>
+      <i class="bi bi-twitter social"></i>
+      <i class="bi bi-instagram social"></i>
+      <i class="bi bi-envelope-fill social"></i>
+      <p>© Copyright 2018 TinDog</p>
+    </footer>
+  <div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>
