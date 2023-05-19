@@ -1,4 +1,4 @@
-# advertisement
+# Tindog!
 ¡Bienvenido(a) al repositorio de la página de Advertisement para Tindog, una app imaginaria de citas para perros!
 
 Descripción
